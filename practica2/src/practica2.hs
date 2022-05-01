@@ -3,7 +3,6 @@ mcd::Int->Int->Int
 mcd x 0 = x
 mcd x y = mcd y (mod x y)
 
-
 --[2] Minimo comun multiplo
 
 division::Int->Int->[Int]
