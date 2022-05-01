@@ -62,12 +62,8 @@ diferencia xs ys= [x | x<-xs, elemento x ys==False]
 
 diferenciaSimetrica:: Eq a=>[a]->[a]->[a]
 diferenciaSimetrica xs ys = union (diferencia xs ys) (diferencia ys xs)
-
  
---[9] Multiplicación de matrices
-
-
---[10] conjuntoPotencia
+--[9] conjuntoPotencia
 conjuntoPotencia::[a]->[[a]]
 conjuntoPotencia []=[[]]
 conjuntoPotencia (x:xs) = poner x (conjuntoPotencia xs) ++ (conjuntoPotencia xs)
