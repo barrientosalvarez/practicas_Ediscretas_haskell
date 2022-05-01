@@ -1,0 +1,1 @@
+# practicas_Ediscretas_haskell
